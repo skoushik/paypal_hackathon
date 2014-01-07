@@ -12,7 +12,8 @@ Idea:
  
  This prototype contains a Python script which takes an image from the webcam, and emulates a browser to do a reverse 
  image search on Google Images and gets back the name/type of the object. This is then fed into the eBay webpage to 
- show the listings for that object.
+ show the listings for that object. The program uses SimpleCV for image capture and Selenium for browser emulation,
+ both of which are open source technologies.
  
  A final product would have much more sophisticated features such as listing out similar and better products based on
  user reviews, and also crowdsourcing could be implemented, by letting users 'tag' the objects so that other users can
